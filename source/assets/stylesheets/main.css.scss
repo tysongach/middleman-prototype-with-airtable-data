@@ -1,0 +1,13 @@
+@import "bourbon";
+
+@import "reset/reset";
+
+body {
+  font-family: $font-stack-system;
+}
+
+.container {
+  @include margin(5vh auto);
+  @include padding(null 1rem);
+  max-width: 32rem;
+}
