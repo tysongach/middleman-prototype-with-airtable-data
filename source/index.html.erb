@@ -1,3 +1,18 @@
 <header>
   <h1>Middleman Prototype with Airtable Data</h1>
 </header>
+
+<main>
+  <p>
+    The data below is pulled directly from
+    <a href="https://airtable.com/shrIlzC2qh7Hcd73K">Airtable</a>.
+  </p>
+
+  <% app.data.table_1.records.each do |person| %>
+    <ul>
+      <li>
+        <%= person.fields.Name %>
+      </li>
+    </ul>
+  <% end %>
+</main>
