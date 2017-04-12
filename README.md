@@ -26,22 +26,22 @@ The key pieces that make this work are:
 
 1. Get the code:
 
-  ```
-  git clone https://github.com/tysongach/middleman-prototype-with-airtable-data.git
-  ```
+    ```
+    git clone https://github.com/tysongach/middleman-prototype-with-airtable-data.git
+    ```
 
 1. Set up your machine:
 
-  ```
-  bin/setup
-  ```
+    ```
+    bin/setup
+    ```
 
 1. Run the app:
 
-  ```
-  bundle exec middleman
-  ```
+    ```
+    bundle exec middleman
+    ```
 
-  ```
-  open http://localhost:4567
-  ```
+    ```
+    open http://localhost:4567
+    ```
